@@ -6,7 +6,7 @@
   },
   "bugs": {
     "email": "contact@drsoft.fr",
-    "url": "https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha/issues"
+    "url": "https://github.com/drsoft-fr/drsoftfrrecaptcha/issues"
   },
   "contributors": [
     {
@@ -31,14 +31,14 @@
     "vite": "^5.2.12",
     "vite-plugin-eslint": "^1.8.1"
   },
-  "homepage": "https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha",
+  "homepage": "https://github.com/drsoft-fr/drsoftfrrecaptcha",
   "maintainers": [
     "Dylan Ramos <dylan.ramos.n@gmail.com> (https://github.com/dylan-ramos)"
   ],
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha"
+    "url": "https://github.com/drsoft-fr/drsoftfrrecaptcha"
   },
   "scripts": {
     "build": "tsc && vite build",

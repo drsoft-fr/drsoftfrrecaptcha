@@ -1,5 +1,5 @@
 {
-  "name": "drsoft-fr/prestashop-module-drsoftfrrecaptcha",
+  "name": "drsoft-fr/drsoftfrrecaptcha",
   "license": "MIT",
   "type": "prestashop-module",
   "authors": [
@@ -28,7 +28,7 @@
     "sort-packages": true,
     "prepend-autoloader": false
   },
-  "homepage": "https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha",
+  "homepage": "https://github.com/drsoft-fr/drsoftfrrecaptcha",
   "require": {
     "php": ">=7.2",
     "google/recaptcha": "*",
@@ -37,6 +37,6 @@
   "scripts": {},
   "scripts-descriptions": {},
   "support": {
-    "issues": "https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha/issues"
+    "issues": "https://github.com/drsoft-fr/drsoftfrrecaptcha/issues"
   }
 }

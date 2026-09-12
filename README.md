@@ -38,8 +38,7 @@ for development :
 
 ```bash
 $ cd {PRESTASHOP_FOLDER}/modules
-$ git clone git@github.com:drsoft-fr/prestashop-module-drsoftfrrecaptcha.git
-$ mv prestashop-module-drsoftfrrecaptcha drsoftfrrecaptcha
+$ git clone git@github.com:drsoft-fr/drsoftfrrecaptcha.git
 $ cd drsoftfrrecaptcha
 $ composer install -o --no-dev
 $ cd {PRESTASHOP_FOLDER}
@@ -49,8 +48,8 @@ $ php ./bin/console prestashop:module install drsoftfrrecaptcha
 ## Links
 
 - [drSoft.fr on GitHub](https://github.com/drsoft-fr)
-- [GitHub](https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha)
-- [Issues](https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha/issues)
+- [GitHub](https://github.com/drsoft-fr/drsoftfrrecaptcha)
+- [Issues](https://github.com/drsoft-fr/drsoftfrrecaptcha/issues)
 
 ## Authors
 

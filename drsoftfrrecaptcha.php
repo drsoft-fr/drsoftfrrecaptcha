@@ -11,7 +11,7 @@ use DrSoftFr\Module\ReCaptcha\Install\Factory\InstallerFactory;
 use DrSoftFr\Module\ReCaptcha\Install\Installer;
 use PrestaShop\PrestaShop\Core\Cache\Clearer\CacheClearerChain;
 
-if (!defined('_PS_VERSION_') || !defined('_CAN_LOAD_FILES_')) {
+if (!defined('_PS_VERSION_')) {
     exit;
 }
 
@@ -74,8 +74,8 @@ class drsoftfrrecaptcha extends Module
         ];
         $this->version = '1.0.0';
         $this->authorEmail = 'contact@drsoft.fr';
-        $this->moduleGithubRepositoryUrl = 'https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha';
-        $this->moduleGithubIssuesUrl = 'https://github.com/drsoft-fr/prestashop-module-drsoftfrrecaptcha/issues';
+        $this->moduleGithubRepositoryUrl = 'https://github.com/drsoft-fr/drsoftfrrecaptcha';
+        $this->moduleGithubIssuesUrl = 'https://github.com/drsoft-fr/drsoftfrrecaptcha/issues';
         $this->isPsVersion8 = (bool)version_compare(_PS_VERSION_, '8.0', '>=');
 
         parent::__construct();
